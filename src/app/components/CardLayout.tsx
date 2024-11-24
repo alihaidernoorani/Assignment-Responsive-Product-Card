@@ -17,7 +17,7 @@ interface CardAttributes {
 
 export function Card({ src, price }: CardAttributes) {
     return (
-        <div className="bg-white text-center w-full md:w-1/3 lg:w-1/4 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+        <div className="bg-white text-center w-full md:w-1/3 lg:w-1/4 rounded-lg transition-transform transform hover:scale-105">
             <div>
                 <Image 
                     src={src} 
